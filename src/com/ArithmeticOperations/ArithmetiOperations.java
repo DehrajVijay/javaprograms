@@ -6,6 +6,7 @@ public class ArithmetiOperations {
 
 	public static void main(String[] args) {
 		// To find the sum of n natural numbers taking input from the user.
+
 		int i = 0;
 		int sum = 0;
 		Scanner sc = new Scanner(System.in);
