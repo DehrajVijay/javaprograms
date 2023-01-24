@@ -29,7 +29,7 @@ public class DayOfDate {
 		case Calendar.SUNDAY:
 			return "SUNDAY";
 		default:
-			return "";
+			return " ";
 		}
 
 	}

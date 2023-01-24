@@ -10,7 +10,7 @@ public class GetDayFromDate_1 {
 		// create string array of week
 		String[] days = new String[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 		int n;
-		n = cal.get(cal.DAY_OF_WEEK);// It witll return an integer form 1-7 and 1-sunday and so on.
+		n = cal.get(cal.DAY_OF_WEEK);// It witll return an integer form 1-7 and 1->sunday and so on.
 		return (days[n - 1]);
 
 	}
