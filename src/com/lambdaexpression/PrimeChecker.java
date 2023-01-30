@@ -35,14 +35,14 @@ public class PrimeChecker {
 			}
 			if (n == 1 || n == 0)
 
-				System.out.println(n + " is neither prime not composite");
+				System.out.println(n + " is neither prime nor composite.");
 			else if (isPrime)
-				System.out.println(n + " is a prime number");
+				System.out.println(n + " is a prime number.");
 			else
-				System.out.println(n + " is not a prime number");
+				System.out.println(n + " is not a prime number.");
 
 		};
-		System.out.println("Enter the number to be checked");
+		System.out.println("Enter the number to be checked.");
 		fi.primeornot(sc.nextInt());
 	}
 }
