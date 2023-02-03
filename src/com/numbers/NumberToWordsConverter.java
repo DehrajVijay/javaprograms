@@ -59,7 +59,6 @@ public class NumberToWordsConverter {
 			// <100 then it can be made out of the tens and units array itself.
 			return tens[n / 10] + ((n % 10 != 0) ? " " : "") + units[n % 10];
 		}
-
 		if (n < 1000) {
 			// Calling the convert function here and
 			return units[n / 100] + " Hundred " + ((n % 100 != 0) ? "" : '"') + convert(n % 100);
@@ -75,6 +74,7 @@ public class NumberToWordsConverter {
 		return convert(n / 10000000) + " Crore " + ((n % 10000000 != 0) ? " " : "") + convert(n % 10000000);
 	}
 
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number to convert into word format");
