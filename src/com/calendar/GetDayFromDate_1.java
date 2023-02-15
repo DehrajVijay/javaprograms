@@ -1,6 +1,7 @@
 package com.calendar;
 
 import java.util.Calendar;
+
 import java.util.Scanner;
 
 public class GetDayFromDate_1 {
@@ -18,7 +19,7 @@ public class GetDayFromDate_1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str;
-		System.out.println("Enter the date as(dd:mm:yyyy)");
+		System.out.println("Enter the date as(dd/mm/yyyy)");
 		str = sc.nextLine();
 		int day = Integer.parseInt(str.substring(0, 2));
 		int month = Integer.parseInt(str.substring(3, 5));
