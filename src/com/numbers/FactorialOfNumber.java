@@ -7,7 +7,6 @@ interface factorial {
 
 	public void isFactorial(int n);
 
-	
 }
 
 public class FactorialOfNumber {
@@ -18,13 +17,19 @@ public class FactorialOfNumber {
 		factorial fac = n -> {
 			// Initializing the variable fact with 1;
 			int fact = 1;
-			// Taking loop 
-			for (int i = n; i >= 1; i--) {
+			int i;
+			// Taking loop
+			System.out.print(n + "! = ");
+			for (i = n; i >= 1; i--) {
 				fact = fact * i;
 
-			}
-			System.out.print(n + "! is " + fact+".");
+				if (i == 1) {
 
+					System.out.print(i + " = " + fact + ".");
+				} else {
+					System.out.print(i + " x ");
+				}
+			}
 		};
 		System.out.println("Enter the number");
 		fac.isFactorial(sc.nextInt());
