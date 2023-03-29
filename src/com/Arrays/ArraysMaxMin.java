@@ -17,23 +17,19 @@ public class ArraysMaxMin {
 		}
 //Printing the array 
 
-		
-		
-		
-		
-		
 		for (int i = 0; i < 2; i++) {
 			for (int j = 0; j < 3; j++) {
 				System.out.print(numbers[i][j] + " ");
+
+				int max = numbers[0][0];
+				int min = numbers[0][0];
+				if (max < numbers[0][0])
+					max = numbers[i][j];
+				if (max < numbers[i][0])
+					min = numbers[i][0];
+				System.out.println(max + " " + min);
 			}
-			int max = numbers[0][0];
-			int min = numbers[0][0];
-			if (max < numbers[0][0])
-				max = numbers[i][j];
-			if (max < numbers[i][0])
-				min = numbers[i][0];
-			System.out.println(max + " " + min);
+			System.out.println(" ");
 		}
-		System.out.println(" ");
 	}
 }

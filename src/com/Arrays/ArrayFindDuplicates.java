@@ -26,7 +26,7 @@ public class ArrayFindDuplicates {
 
 		System.out.println("The unique elements in the string array are: \n");
 		distinctCompanies.forEach(System.out::println);
-n
+
 		// count the unique elements
 		System.out.println("The number of unique elements are:");
 
