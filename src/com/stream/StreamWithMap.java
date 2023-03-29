@@ -24,9 +24,13 @@ public class StreamWithMap {
 		System.out.println("The Updated Marks of the students are: " + UpdatedMarks);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		List<Integer> modifiedmarks = marks.stream().map(i -> i + 5).collect(Collectors.toList()).stream().map(i->i+10).collect(Collectors.toList());
 		System.out.println("The Updated Marks of the students are: " + modifiedmarks);
 
+=======
+		
+>>>>>>> 5ed2821c4037627f2b9e47a3eaf7301d1ac82e8e
 =======
 		
 >>>>>>> 5ed2821c4037627f2b9e47a3eaf7301d1ac82e8e
