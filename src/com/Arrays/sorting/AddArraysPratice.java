@@ -1,7 +1,5 @@
 package com.Arrays.sorting;
 
-import java.util.*;
-
 public class AddArraysPratice {
 
 	public static void main(String[] args) {

@@ -49,6 +49,6 @@ public class Translator {
 	
 		// method calling to translate the text.
 		translate(sc.nextLine(), sc.nextLine());
-	}
+	}  
 
 }

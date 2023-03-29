@@ -12,7 +12,7 @@ public class OtpGenerateCode {
 		SplittableRandom otp = new SplittableRandom();
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < otpLength; i++) {
-			sb.append(otp.nextInt(0, 10));
+			sb.append(otp.nextInt(0,7));
 		}
 		return sb.toString();
 
@@ -20,7 +20,7 @@ public class OtpGenerateCode {
 
 	public static void main(String[] args) {
 		System.out.print("The OTP is: ");
-		System.out.println(OtpGenerateCode.generateOtp(6));
+		System.out.println(OtpGenerateCode.generateOtp(4));
 	}
 
 }

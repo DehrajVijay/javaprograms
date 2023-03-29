@@ -7,7 +7,7 @@ public class OtpGeneratorByRandomMethod {
 		StringBuilder sb = new StringBuilder();
 		Random ram = new Random();
 		for (int i = 0; i < otpLength; i++) {
-			sb.append();
+			sb.append(sb);
 
 		}
 		return ram.toString();
