@@ -11,7 +11,10 @@ public class ArrayAverage {
 			sum = sum + numbers[i];
 
 		}
-		System.out.println("The sum of the elements is:" + sum);
+
+
+	
+		   System.out.println("The sum of the elements is:" + sum);
 		average = sum / numbers.length;
 		System.out.println("The average of the elements is:" + average);
 	}
