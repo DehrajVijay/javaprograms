@@ -9,9 +9,9 @@ public class DatabaseTester {
 
     public static void main(String[] args) {
         // Connection parameters
-        String url = "jdbc:oracle:thin:@localhost:1521:xe";
-        String user = "SYSTEM"; // Or your specific username
-        String password = "YourPassword"; 
+        String url = "jdbc:oracle:thin:@localhost:1521/orclpdb";
+        String user = "practice_user"; // Or your specific username
+        String password = "practice123"; 
 
         // Try-with-resources (automatically closes resources)
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
